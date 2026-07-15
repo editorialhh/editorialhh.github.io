@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Portfolio landing page for showcasing projects, skills, and contact details."
+    />
+    <title>Portfolio | Creative Developer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Poppins:wght@500;700;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="bg-slate-50 text-slate-900 antialiased">
+    <div class="relative min-h-screen overflow-hidden">
+      <div class="pointer-events-none absolute -left-20 top-8 h-56 w-56 rounded-full bg-cyan-200/70 blur-3xl"></div>
+      <div class="pointer-events-none absolute -right-20 bottom-12 h-64 w-64 rounded-full bg-amber-200/70 blur-3xl"></div>
+
+      <main class="mx-auto max-w-6xl px-6 pb-20 pt-8 sm:px-10 lg:px-16">
+        <header class="flex items-center justify-between py-4">
+          <p class="font-display text-xl font-bold tracking-tight">Ava Rivera</p>
+          <a
+            href="#contact"
+            class="rounded-full border border-slate-300 px-4 py-2 text-sm font-semibold transition hover:border-slate-900 hover:bg-slate-900 hover:text-white"
+          >
+            Let’s Work
+          </a>
+        </header>
+
+        <section class="grid gap-12 py-12 md:grid-cols-2 md:items-center">
+          <div>
+            <p class="mb-4 inline-flex items-center gap-2 rounded-full bg-white/90 px-4 py-1 text-xs font-bold uppercase tracking-widest text-slate-700 shadow-soft">
+              Available for freelance projects
+            </p>
+            <h1 class="font-display text-4xl font-black leading-tight text-slate-900 sm:text-5xl lg:text-6xl">
+              Building bold digital experiences with clean code and strong visual identity.
+            </h1>
+            <p class="mt-6 max-w-xl font-body text-lg text-slate-600">
+              I design and build polished web products focused on performance, accessibility, and memorable interactions.
+            </p>
+            <div class="mt-8 flex flex-wrap gap-4">
+              <a
+                href="#projects"
+                class="rounded-full bg-slate-900 px-6 py-3 text-sm font-bold text-white transition hover:bg-slate-700"
+              >
+                View Projects
+              </a>
+              <a
+                href="#contact"
+                class="rounded-full border border-slate-300 px-6 py-3 text-sm font-bold transition hover:border-slate-900"
+              >
+                Contact Me
+              </a>
+            </div>
+          </div>
+
+          <aside class="rounded-3xl border border-white/70 bg-white/70 p-8 shadow-soft backdrop-blur">
+            <h2 class="font-display text-2xl font-bold">Quick Facts</h2>
+            <ul class="mt-6 space-y-4 font-body text-slate-700">
+              <li class="flex items-start justify-between gap-4 border-b border-slate-200 pb-3">
+                <span>Experience</span><span class="font-semibold">5+ years</span>
+              </li>
+              <li class="flex items-start justify-between gap-4 border-b border-slate-200 pb-3">
+                <span>Specialty</span><span class="font-semibold">Frontend Engineering</span>
+              </li>
+              <li class="flex items-start justify-between gap-4 border-b border-slate-200 pb-3">
+                <span>Core Stack</span><span class="font-semibold">TypeScript, React, Node</span>
+              </li>
+              <li class="flex items-start justify-between gap-4">
+                <span>Location</span><span class="font-semibold">Remote / Global</span>
+              </li>
+            </ul>
+          </aside>
+        </section>
+
+        <section id="projects" class="py-8">
+          <div class="mb-8 flex items-end justify-between gap-4">
+            <h2 class="font-display text-3xl font-bold">Featured Work</h2>
+            <p class="font-body text-sm uppercase tracking-widest text-slate-500">Selected Projects</p>
+          </div>
+
+          <div class="grid gap-6 md:grid-cols-2">
+            <article class="rounded-2xl bg-white p-6 shadow-soft transition hover:-translate-y-1">
+              <p class="text-xs font-bold uppercase tracking-widest text-cyan-700">SaaS Platform</p>
+              <h3 class="mt-2 font-display text-2xl font-bold">PulseBoard Analytics</h3>
+              <p class="mt-3 font-body text-slate-600">
+                Dashboard redesign that improved user retention by 21% through clearer data narratives and interaction patterns.
+              </p>
+            </article>
+
+            <article class="rounded-2xl bg-white p-6 shadow-soft transition hover:-translate-y-1">
+              <p class="text-xs font-bold uppercase tracking-widest text-amber-700">E-commerce</p>
+              <h3 class="mt-2 font-display text-2xl font-bold">Northwave Outfitters</h3>
+              <p class="mt-3 font-body text-slate-600">
+                End-to-end storefront with lightning-fast product filtering and a conversion-focused checkout experience.
+              </p>
+            </article>
+          </div>
+        </section>
+
+        <section id="contact" class="py-12">
+          <div class="rounded-3xl bg-slate-900 p-8 text-white shadow-soft sm:p-12">
+            <h2 class="font-display text-3xl font-bold">Let’s build something impactful.</h2>
+            <p class="mt-4 max-w-2xl font-body text-slate-200">
+              Reach out to discuss your next product, redesign, or frontend architecture challenge.
+            </p>
+            <a
+              href="mailto:hello@avarivera.dev"
+              class="mt-8 inline-flex rounded-full bg-white px-6 py-3 text-sm font-bold text-slate-900 transition hover:bg-slate-200"
+            >
+              hello@avarivera.dev
+            </a>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
