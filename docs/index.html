@@ -1,125 +1,56 @@
 <!doctype html>
-<html lang="en">
+<html lang="es">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta
-      name="description"
-      content="Portfolio landing page for showcasing projects, skills, and contact details."
-    />
-    <title>Portfolio | Creative Developer</title>
+    <meta name="description" content="Servicios Editoriales HH: edición profesional de libros y revistas, desde la idea hasta la publicación." />
+    <title>Servicios Editoriales HH | Edición profesional</title>
+    <link rel="icon" type="image/png" href="/images/favicon.png" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Poppins:wght@500;700;900&display=swap"
-      rel="stylesheet"
-    />
-    <script type="module" crossorigin src="/assets/index-1CatopKT.js"></script>
-    <link rel="stylesheet" crossorigin href="/assets/index-B4-DVlaW.css">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Playfair+Display:wght@600;700;800&display=swap" rel="stylesheet" />
+    <script type="module" crossorigin src="/assets/index-x0_SJyTE.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-yNcUPzBz.css">
   </head>
-  <body class="bg-slate-50 text-slate-900 antialiased">
-    <div class="relative min-h-screen overflow-hidden">
-      <div class="pointer-events-none absolute -left-20 top-8 h-56 w-56 rounded-full bg-cyan-200/70 blur-3xl"></div>
-      <div class="pointer-events-none absolute -right-20 bottom-12 h-64 w-64 rounded-full bg-amber-200/70 blur-3xl"></div>
+  <body class="bg-[#f4efe8] text-[#252321] antialiased">
+    <div class="min-h-screen overflow-hidden">
+      <header class="relative z-10 mx-auto flex max-w-7xl items-center justify-between px-6 py-6 sm:px-10 lg:px-16">
+        <a href="#presentacion" class="font-display text-lg font-bold tracking-tight text-[#252321] sm:text-xl">Servicios Editoriales <span class="text-[#c9533d]">HH</span></a>
+        <nav aria-label="Navegación principal" class="hidden items-center gap-7 text-sm font-medium lg:flex">
+          <a href="#servicios" class="transition-colors hover:text-[#c9533d]">Servicios</a>
+          <a href="#para-quien" class="transition-colors hover:text-[#c9533d]">Para quién</a>
+          <a href="#novedades" class="transition-colors hover:text-[#c9533d]">Novedades</a>
+          <a href="#preguntas" class="transition-colors hover:text-[#c9533d]">Preguntas frecuentes</a>
+        </nav>
+        <a href="#contacto" class="rounded-full bg-[#252321] px-5 py-2.5 text-sm font-bold text-[#f4efe8] transition hover:bg-[#c9533d]">Hablemos</a>
+      </header>
 
-      <main class="mx-auto max-w-6xl px-6 pb-20 pt-8 sm:px-10 lg:px-16">
-        <header class="flex items-center justify-between py-4">
-          <p class="font-display text-xl font-bold tracking-tight">Ava Rivera</p>
-          <a
-            href="#contact"
-            class="rounded-full border border-slate-300 px-4 py-2 text-sm font-semibold transition hover:border-slate-900 hover:bg-slate-900 hover:text-white"
-          >
-            Let’s Work
-          </a>
-        </header>
-
-        <section class="grid gap-12 py-12 md:grid-cols-2 md:items-center">
-          <div>
-            <p class="mb-4 inline-flex items-center gap-2 rounded-full bg-white/90 px-4 py-1 text-xs font-bold uppercase tracking-widest text-slate-700 shadow-soft">
-              Available for freelance projects
-            </p>
-            <h1 class="font-display text-4xl font-black leading-tight text-slate-900 sm:text-5xl lg:text-6xl">
-              Building bold digital experiences with clean code and strong visual identity.
-            </h1>
-            <p class="mt-6 max-w-xl font-body text-lg text-slate-600">
-              I design and build polished web products focused on performance, accessibility, and memorable interactions.
-            </p>
-            <div class="mt-8 flex flex-wrap gap-4">
-              <a
-                href="#projects"
-                class="rounded-full bg-slate-900 px-6 py-3 text-sm font-bold text-white transition hover:bg-slate-700"
-              >
-                View Projects
-              </a>
-              <a
-                href="#contact"
-                class="rounded-full border border-slate-300 px-6 py-3 text-sm font-bold transition hover:border-slate-900"
-              >
-                Contact Me
-              </a>
-            </div>
+      <main>
+        <section id="presentacion" class="relative mx-auto grid max-w-7xl gap-12 px-6 pb-24 pt-16 sm:px-10 sm:pt-20 lg:grid-cols-[1.1fr_0.9fr] lg:items-center lg:px-16 lg:pb-32 lg:pt-24">
+          <div class="absolute -right-32 top-0 -z-0 h-96 w-96 rounded-full bg-[#e4b49f]/40 blur-3xl"></div>
+          <div class="relative z-10">
+            <p class="mb-6 text-xs font-bold uppercase tracking-[0.28em] text-[#c9533d]">Edición con mirada propia</p>
+            <h1 class="max-w-4xl font-display text-5xl font-bold leading-[1.04] tracking-[-0.02em] text-[#252321] sm:text-6xl lg:text-8xl">Las ideas también merecen una <span class="text-[#c9533d]">buena edición.</span></h1>
+            <p class="mt-8 max-w-xl text-lg leading-8 text-[#625d57]">Somos una editorial independiente que acompaña libros y revistas con criterio, cuidado y atención a cada detalle: desde la primera página hasta su publicación.</p>
+            <div class="mt-10 flex flex-wrap items-center gap-5"><a href="#servicios" class="inline-flex items-center gap-3 rounded-full bg-[#c9533d] px-6 py-3.5 text-sm font-bold text-white transition hover:bg-[#a83e2e]">Conocé nuestros servicios <span aria-hidden="true">↗</span></a><span class="text-sm font-medium text-[#625d57]">Edición · Diseño · Publicación</span></div>
           </div>
-
-          <aside class="rounded-3xl border border-white/70 bg-white/70 p-8 shadow-soft backdrop-blur">
-            <h2 class="font-display text-2xl font-bold">Quick Facts</h2>
-            <ul class="mt-6 space-y-4 font-body text-slate-700">
-              <li class="flex items-start justify-between gap-4 border-b border-slate-200 pb-3">
-                <span>Experience</span><span class="font-semibold">5+ years</span>
-              </li>
-              <li class="flex items-start justify-between gap-4 border-b border-slate-200 pb-3">
-                <span>Specialty</span><span class="font-semibold">Frontend Engineering</span>
-              </li>
-              <li class="flex items-start justify-between gap-4 border-b border-slate-200 pb-3">
-                <span>Core Stack</span><span class="font-semibold">TypeScript, React, Node</span>
-              </li>
-              <li class="flex items-start justify-between gap-4">
-                <span>Location</span><span class="font-semibold">Remote / Global</span>
-              </li>
-            </ul>
-          </aside>
-        </section>
-
-        <section id="projects" class="py-8">
-          <div class="mb-8 flex items-end justify-between gap-4">
-            <h2 class="font-display text-3xl font-bold">Featured Work</h2>
-            <p class="font-body text-sm uppercase tracking-widest text-slate-500">Selected Projects</p>
-          </div>
-
-          <div class="grid gap-6 md:grid-cols-2">
-            <article class="rounded-2xl bg-white p-6 shadow-soft transition hover:-translate-y-1">
-              <p class="text-xs font-bold uppercase tracking-widest text-cyan-700">SaaS Platform</p>
-              <h3 class="mt-2 font-display text-2xl font-bold">PulseBoard Analytics</h3>
-              <p class="mt-3 font-body text-slate-600">
-                Dashboard redesign that improved user retention by 21% through clearer data narratives and interaction patterns.
-              </p>
-            </article>
-
-            <article class="rounded-2xl bg-white p-6 shadow-soft transition hover:-translate-y-1">
-              <p class="text-xs font-bold uppercase tracking-widest text-amber-700">E-commerce</p>
-              <h3 class="mt-2 font-display text-2xl font-bold">Northwave Outfitters</h3>
-              <p class="mt-3 font-body text-slate-600">
-                End-to-end storefront with lightning-fast product filtering and a conversion-focused checkout experience.
-              </p>
-            </article>
+          <div class="relative z-10 mx-auto w-full max-w-md lg:ml-auto">
+            <div class="relative aspect-[4/5] overflow-hidden rounded-t-[10rem] rounded-b-[1.5rem] bg-[#d8c1a8] shadow-2xl shadow-[#6c5141]/20"><img src="/images/logo.jpg" alt="Identidad visual de Servicios Editoriales HH" class="h-full w-full object-cover mix-blend-multiply opacity-80" /><div class="absolute inset-0 bg-[#c9533d]/10"></div><div class="absolute bottom-7 left-7 right-7 border-t border-white/60 pt-4 text-white"><p class="font-display text-2xl font-bold">Una página a la vez.</p><p class="mt-1 text-sm text-white/80">Historias que encuentran su forma.</p></div></div>
+            <span class="absolute -bottom-5 -left-8 flex h-20 w-20 items-center justify-center rounded-full bg-[#e6c54f] text-center text-[10px] font-bold uppercase leading-3 tracking-widest text-[#252321]">Desde<br />la idea</span>
           </div>
         </section>
 
-        <section id="contact" class="py-12">
-          <div class="rounded-3xl bg-slate-900 p-8 text-white shadow-soft sm:p-12">
-            <h2 class="font-display text-3xl font-bold">Let’s build something impactful.</h2>
-            <p class="mt-4 max-w-2xl font-body text-slate-200">
-              Reach out to discuss your next product, redesign, or frontend architecture challenge.
-            </p>
-            <a
-              href="mailto:hello@avarivera.dev"
-              class="mt-8 inline-flex rounded-full bg-white px-6 py-3 text-sm font-bold text-slate-900 transition hover:bg-slate-200"
-            >
-              hello@avarivera.dev
-            </a>
-          </div>
-        </section>
+        <section id="servicios" class="bg-[#252321] text-[#f4efe8]"><div class="mx-auto max-w-7xl px-6 py-20 sm:px-10 lg:px-16 lg:py-28"><div class="grid gap-12 lg:grid-cols-[0.8fr_1.2fr]"><div><p class="text-xs font-bold uppercase tracking-[0.28em] text-[#e6c54f]">Lo que hacemos</p><h2 class="mt-5 max-w-sm font-display text-4xl font-bold leading-tight sm:text-5xl">Todo lo que una publicación necesita.</h2><p class="mt-6 max-w-sm leading-7 text-[#bdb5ad]">Un equipo editorial cerca, involucrado y atento a las decisiones que hacen que cada proyecto sea único.</p></div><div class="grid gap-x-10 sm:grid-cols-2"><article class="border-t border-white/20 py-6"><span class="text-sm text-[#e6c54f]">01</span><h3 class="mt-8 font-display text-2xl font-bold">Edición y corrección</h3><p class="mt-3 leading-7 text-[#bdb5ad]">Lectura profunda, edición de estilo, corrección ortotipográfica y acompañamiento de autor.</p></article><article class="border-t border-white/20 py-6 sm:mt-12"><span class="text-sm text-[#e6c54f]">02</span><h3 class="mt-8 font-display text-2xl font-bold">Diseño editorial</h3><p class="mt-3 leading-7 text-[#bdb5ad]">Diseño de interiores, tapas y piezas que convierten el contenido en una experiencia.</p></article><article class="border-t border-white/20 py-6"><span class="text-sm text-[#e6c54f]">03</span><h3 class="mt-8 font-display text-2xl font-bold">Producción</h3><p class="mt-3 leading-7 text-[#bdb5ad]">Preparación de originales, armado de archivos y seguimiento de impresión o publicación digital.</p></article><article class="border-t border-white/20 py-6 sm:mt-12"><span class="text-sm text-[#e6c54f]">04</span><h3 class="mt-8 font-display text-2xl font-bold">Libros y revistas</h3><p class="mt-3 leading-7 text-[#bdb5ad]">Proyectos editoriales con identidad, claridad y una planificación que llega hasta el final.</p></article></div></div></div></section>
+
+        <section id="para-quien" class="mx-auto max-w-7xl px-6 py-20 sm:px-10 lg:px-16 lg:py-28"><div class="flex flex-col justify-between gap-8 border-b border-[#252321]/20 pb-10 sm:flex-row sm:items-end"><div><p class="text-xs font-bold uppercase tracking-[0.28em] text-[#c9533d]">Para quién trabajamos</p><h2 class="mt-4 max-w-2xl font-display text-4xl font-bold leading-tight sm:text-5xl">Proyectos con algo para decir.</h2></div><p class="max-w-xs text-sm leading-6 text-[#625d57]">Nos gusta trabajar con quienes valoran el proceso tanto como el resultado.</p></div><div class="grid gap-0 md:grid-cols-3"><div class="border-b border-[#252321]/20 py-8 md:border-b-0 md:border-r md:pr-10"><p class="font-display text-3xl font-bold">Autores</p><p class="mt-3 leading-7 text-[#625d57]">Para transformar un manuscrito en un libro propio, sólido y listo para compartir.</p></div><div class="border-b border-[#252321]/20 py-8 md:border-b-0 md:border-r md:px-10"><p class="font-display text-3xl font-bold">Revistas</p><p class="mt-3 leading-7 text-[#625d57]">Para equipos y proyectos que buscan una publicación consistente, legible y con identidad.</p></div><div class="py-8 md:pl-10"><p class="font-display text-3xl font-bold">Instituciones</p><p class="mt-3 leading-7 text-[#625d57]">Para convertir investigaciones, catálogos y contenidos en ediciones que perduren.</p></div></div></section>
+
+        <section id="novedades" class="bg-[#e5ddd2]"><div class="mx-auto max-w-7xl px-6 py-20 sm:px-10 lg:px-16 lg:py-28"><div class="mb-10 flex items-end justify-between gap-5"><div><p class="text-xs font-bold uppercase tracking-[0.28em] text-[#c9533d]">Novedades</p><h2 class="mt-4 font-display text-4xl font-bold sm:text-5xl">Lecturas recientes</h2></div><span class="hidden text-sm text-[#625d57] sm:block">Proyectos HH · 2024</span></div><div class="grid gap-7 md:grid-cols-2"><article class="group grid grid-cols-[8rem_1fr] gap-6 border-t border-[#252321]/20 pt-5 sm:grid-cols-[12rem_1fr]"><img src="/images/libro_dejando-ir-la-ira.jpg" alt="Portada del libro Dejando ir la ira" class="aspect-[3/4] w-full object-cover transition duration-500 group-hover:rotate-2" /><div><p class="text-xs font-bold uppercase tracking-widest text-[#c9533d]">Libro</p><h3 class="mt-3 font-display text-2xl font-bold">Dejando ir la ira</h3><p class="mt-3 text-sm leading-6 text-[#625d57]">Una edición que acompaña un proceso de transformación personal con sensibilidad y claridad.</p><span class="mt-6 inline-block text-xs font-bold uppercase tracking-widest">Ver publicación ↗</span></div></article><article class="group grid grid-cols-[8rem_1fr] gap-6 border-t border-[#252321]/20 pt-5 sm:grid-cols-[12rem_1fr]"><img src="/images/libro_alguien-que-amas-tiene-tdah.jpg" alt="Portada del libro Alguien que amas tiene TDAH" class="aspect-[3/4] w-full object-cover transition duration-500 group-hover:-rotate-2" /><div><p class="text-xs font-bold uppercase tracking-widest text-[#c9533d]">Libro</p><h3 class="mt-3 font-display text-2xl font-bold">Alguien que amas tiene TDAH</h3><p class="mt-3 text-sm leading-6 text-[#625d57]">Contenido cercano y herramientas concretas, llevado a una edición accesible y cuidada.</p><span class="mt-6 inline-block text-xs font-bold uppercase tracking-widest">Ver publicación ↗</span></div></article></div></div></section>
+
+        <section id="preguntas" class="mx-auto max-w-7xl px-6 py-20 sm:px-10 lg:px-16 lg:py-28"><div class="grid gap-12 lg:grid-cols-[0.8fr_1.2fr]"><div><p class="text-xs font-bold uppercase tracking-[0.28em] text-[#c9533d]">Preguntas frecuentes</p><h2 class="mt-4 max-w-sm font-display text-4xl font-bold leading-tight sm:text-5xl">Empecemos por lo esencial.</h2></div><div class="divide-y divide-[#252321]/20 border-t border-[#252321]/20"><details class="group py-6"><summary class="flex cursor-pointer list-none items-center justify-between gap-5 font-display text-xl font-bold">¿En qué momento conviene contactarlos?<span class="text-2xl font-normal text-[#c9533d] transition group-open:rotate-45">+</span></summary><p class="mt-4 max-w-xl leading-7 text-[#625d57]">Cuanto antes, mejor. Podemos sumarnos desde una idea inicial o trabajar sobre un original terminado y definir juntos el recorrido.</p></details><details class="group py-6"><summary class="flex cursor-pointer list-none items-center justify-between gap-5 font-display text-xl font-bold">¿Trabajan con proyectos autogestionados?<span class="text-2xl font-normal text-[#c9533d] transition group-open:rotate-45">+</span></summary><p class="mt-4 max-w-xl leading-7 text-[#625d57]">Sí. Acompañamos a autores, equipos e instituciones que publican por su cuenta y necesitan una mirada editorial profesional.</p></details><details class="group py-6"><summary class="flex cursor-pointer list-none items-center justify-between gap-5 font-display text-xl font-bold">¿Pueden encargarse del proyecto completo?<span class="text-2xl font-normal text-[#c9533d] transition group-open:rotate-45">+</span></summary><p class="mt-4 max-w-xl leading-7 text-[#625d57]">Claro. Armamos propuestas a medida que pueden incluir edición, diseño, producción y preparación para publicar.</p></details></div></div></section>
+
+        <section id="contacto" aria-label="Contacto"></section>
       </main>
-    </div>
-
+      <footer class="border-t border-[#252321]/20 px-6 py-8 sm:px-10 lg:px-16"><div class="mx-auto flex max-w-7xl flex-col justify-between gap-3 text-sm text-[#625d57] sm:flex-row"><span class="font-bold text-[#252321]">Servicios Editoriales <span class="text-[#c9533d]">HH</span></span><span>Edición que deja huella.</span></div></footer>
+    </div>
   </body>
 </html>
